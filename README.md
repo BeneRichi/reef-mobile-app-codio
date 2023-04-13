@@ -1,13 +1,23 @@
-# Reef chain mobile app
+<img src="https://i.imgur.com/DTv57Sk.png" width="120" alt="Reef" align="right">
 
-Use Reef chain on mobile phone
+# Reef Chain Mobile App
+
+Use the Reef Chain on your smartphone with the Reef Mobile App based on [Flutter framework](https://flutter.dev/).
 
 ## Getting Started
-This mobile app uses Flutter framework. Run it with "flutter run". For any issues check "flutter doctor".
 
-Js libraries are used for interaction with the chain inside "lib/js/packages/reef-mobile-js" directory. Install dependencies running "yarn" in "lib/js" directory. Run them with "yarn start".
+For developing the app you will need to do certain steps:
 
-Mobx is used for Flutter state management. If updating its classes run "flutter pub run build_runner watch"
+1. Fork/Clone [@reef-defi/reef-mobile-app](git@github.com:reef-defi/reef-mobile-app.git).
+2. Run `flutter run`. For any issues use `flutter doctor`.
+
+Note: Js libraries are used for interaction with Reef chain inside "lib/js/packages/reef-mobile-js" directory. 
+
+1. Install dependencies: running `yarn` in "lib/js" directory. 
+2. Run `yarn start`.
+
+Mobx is used for Flutter state management. For updating its classes do following:
+1. Run `flutter pub run build_runner watch`
 
 🌍 Internationalization : This app uses the Internationalization library to provide support for multiple languages. To use this library, you will need to run the following command "flutter gen-l10n"
 
